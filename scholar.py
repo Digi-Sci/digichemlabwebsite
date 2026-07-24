@@ -16,6 +16,8 @@
 #for pub in author['publications'][:20]:
 #    pub = scholarly.fill(pub)
 #    print(pub['bib']['title'])
+
+!pip install scholarly
 import json
 import time
 from scholarly import scholarly
